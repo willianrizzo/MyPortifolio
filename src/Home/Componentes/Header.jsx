@@ -5,16 +5,16 @@ import { Link } from 'react-router-dom'
 
 function Header(){
     return(
-        <div className='p-8 pl-10 flex justify-between text-[#dfdede]'>
+        <div className='p-8 pl-20 flex justify-between text-[#dfdede]'>
             <div className="flex gap-10">
                 <button>Experiencias</button>
                 <button>Projetos</button>
                 <button>Contato</button>
             </div>
             <div className="flex gap-10">
-                <Link><AiFillGithub className='text-3xl'/></Link>
-                <Link><AiFillLinkedin className='text-3xl'/></Link>
-                <Link><AiFillInstagram className='text-3xl'/></Link>
+                <AiFillGithub className='text-3xl'/>
+                <AiFillLinkedin className='text-3xl'/>
+                <AiFillInstagram className='text-3xl'/>
             </div>
         </div>
     )
