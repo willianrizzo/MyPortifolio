@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "preact": "^10.13.1",
-    "react-icons": "^4.8.0"
+    "react-icons": "^4.8.0",
+    "react-router-dom": "^6.11.2"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.5.0",
