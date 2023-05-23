@@ -4,7 +4,7 @@ import './app.css'
 export function App() {
  
   return (
-    <div className='bg-gradient-to-br from-[#181818] to-[#0865c1]'>
+    <div className='bg-gradient-to-br from-[#181818] to-[#0865c1] font-body'>
       <Home/>
     </div>
   )
