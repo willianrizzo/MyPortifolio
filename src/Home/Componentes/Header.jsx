@@ -11,7 +11,7 @@ function Header(){
                 <button>Projetos</button>
                 <button>Contato</button>
             </div>
-            <div className="flex gap-10">
+            <div className="flex gap-6 mr-6">
                 <AiFillGithub className='text-3xl'/>
                 <AiFillLinkedin className='text-3xl'/>
                 <AiFillInstagram className='text-3xl'/>
