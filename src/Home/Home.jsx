@@ -1,11 +1,15 @@
 import Bghome from "./Componentes/Bghome"
 import Header from "./Componentes/Header"
+import Section from "./Componentes/Section"
 
-function Home(){
-    return(
+function Home() {
+    return (
         <>
-            <Header/>
-            <Bghome/>
+            <div className="h-auto pb-24">
+                <Header />
+                <Bghome />
+                <Section />
+            </div>
         </>
     )
 }
