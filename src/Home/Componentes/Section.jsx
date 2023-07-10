@@ -1,6 +1,9 @@
 import ExperienciaDois from './Styled/ExperienciaDois'
 import ExperienciaUm from './Styled/ExperienciaUm'
 
+
+import Project from './Styled/Project'
+
 function Section() {
     return (
         <div>
@@ -12,9 +15,14 @@ function Section() {
 
                 <div className=" flex flex-col gap-20 mt-[65px] ">
                     <ExperienciaUm/>
-                   <ExperienciaDois/>
-
+                    <ExperienciaDois/>
                 </div>
+                
+                <div className="W-full text-center mt-52 ">
+                    <h3 className="text-3xl text-[#0EE6B7]">Meus Projetos</h3>
+                </div>
+
+                <Project/>
             </div>
         </div>
     )
