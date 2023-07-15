@@ -17,7 +17,7 @@ function Project(){
                         <h1 className='text-center text-2xl text-[#0EE6B7]'>Kixx Store</h1>
                         <p className='text-white'>Kixx Store foi um projeto voltado para uma loja de roupas do estilo "streetwear", onde o objetivo era ajudar pessoas a terem suas plataformas para divulgar seus projetos ou produtos. Realizei o sonho de amigos e foi muito gratificante ter alcançado esse resultado!</p>
                         <img className='rounded-md' src={Kixx} alt="" />
-                        <a href='kixx-store.vercel.app' className='w-[50%] text-lg text-center text-[#0EE6B7] bg-[#0b4164] p-1.5 rounded-lg'>Acesse a Kixx!</a>
+                        <a href='https://kixx-store.vercel.app' className='w-[50%] text-lg text-center text-[#0EE6B7] bg-[#0b4164] p-1.5 rounded-lg'>Acesse a Kixx!</a>
                     </div>
 
                     <div className='flex flex-col gap-5 w-[35%] h-auto bg-[#1c6697] p-5 items-center rounded-md'>
