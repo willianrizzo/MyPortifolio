@@ -33,8 +33,8 @@ function Contact() {
 
     return (
         <div>
-            <section className="w-[95%] h-[45%] m-auto mt-20 p-20 flex items-center justify-evenly gap-[40%] bg-[#1c6697] rounded-lg    ">
-                <div className="w-[30%] ">
+            <section className="w-[95%] h-[45%] m-auto mt-20 p-20 flex items-center justify-evenly gap-[35%] bg-[#1c6697] rounded-lg    ">
+                <div className="w-[40%] ">
                     <h2 className="text-white text-4xl">Entre em contato!</h2>
                     <p></p>
                 </div>
