@@ -36,13 +36,13 @@ function Contact() {
             <section className="w-[95%] h-[45%] m-auto mt-20 p-20 flex items-center justify-evenly gap-[35%] bg-[#1c6697] rounded-lg 
             max-md:w-[155%] max-md:flex-col max-md:items-center max-md:gap-20
             ">
-                <div className="w-[40%] 
-                max-md:w-[100%]
+                <div className="w-[40%] flex flex-col gap-4
+                max-md:w-[100%] 
                 ">
                     <h2 className="text-white text-4xl
                     max-md:text-2xl max-md:text-center
                     ">Entre em contato comigo!</h2>
-                    <p></p>
+                    <a className='text-[#0EE6B7] text-[20px] bg-[#0b4164] w-[35%] text-center rounded-xl p-2' href="https://linktr.ee/willianrizzo">Meu Linktree</a>
                 </div>
                 <div className="w-[45%]  flex flex-col gap-6 pl-5 pt-10 pb-5 bg-[#fdfdfd6c] rounded-lg
                 max-md:w-[150%]

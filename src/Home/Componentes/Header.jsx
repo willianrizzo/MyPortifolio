@@ -15,9 +15,9 @@ function Header() {
             <div className="flex gap-10
             max-md:hidden
             ">
-                <button>Experiencias</button>
-                <button>Projetos</button>
-                <button>Contato</button>
+                <a>Experiencias</a>
+                <a>Projetos</a>
+                <a href='Curriculo_Willian.pdf'>Meu Currículo</a>
             </div>
             <div className="flex gap-6 mr-6
             max-md:hidden
