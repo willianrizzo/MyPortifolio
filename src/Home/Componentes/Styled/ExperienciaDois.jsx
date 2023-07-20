@@ -24,10 +24,13 @@ function ExperienciaDois() {
                     </div>
 
                 </div>
-                {/* <div className='max-md:block'>
-                    <img className='w-[45%] ml-[4%]  mt-20  rounded-md flex items-center' src={Blockfy} alt="" />
-                </div> */}
+                
             </div>
+            <div className='max-md:w-[136%] max-md:ml-6 max-md:flex max-md:justify-center max-md:mt-5 hidden'>
+                    <img className='w-[45%] ml-[40%]  mt-20  rounded-md flex items-center
+                    max-md:w-[100%] max-md:-ml-[1%] max-md:mt-0
+                    ' src={Blockfy} alt="" />
+                </div>
         </div>
     )
 }

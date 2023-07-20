@@ -17,7 +17,7 @@ function ExperienciaUm() {
                 </div>
                 <div className='max-md:w-[95%] max-md:ml-6 max-md:flex max-md:justify-center max-md:mt-5'>
                     <img className='w-[45%] ml-[40%]  mt-20  rounded-md flex items-center
-                    max-md:w-[100%] max-md:-ml-[1%] max-md:mt-0
+                    max-md:w-[99%] max-md:-ml-[1%] max-md:mt-0
                     ' src={Etec} alt="" />
                 </div>
             </div>

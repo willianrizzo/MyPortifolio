@@ -33,12 +33,20 @@ function Contact() {
 
     return (
         <div>
-            <section className="w-[95%] h-[45%] m-auto mt-20 p-20 flex items-center justify-evenly gap-[35%] bg-[#1c6697] rounded-lg    ">
-                <div className="w-[40%] ">
-                    <h2 className="text-white text-4xl">Entre em contato!</h2>
+            <section className="w-[95%] h-[45%] m-auto mt-20 p-20 flex items-center justify-evenly gap-[35%] bg-[#1c6697] rounded-lg 
+            max-md:w-[155%] max-md:flex-col max-md:items-center max-md:gap-20
+            ">
+                <div className="w-[40%] 
+                max-md:w-[100%]
+                ">
+                    <h2 className="text-white text-4xl
+                    max-md:text-2xl max-md:text-center
+                    ">Entre em contato comigo!</h2>
                     <p></p>
                 </div>
-                <div className="w-[45%]  flex flex-col gap-6 pl-5 pt-10 pb-5 bg-[#fdfdfd6c] rounded-lg">
+                <div className="w-[45%]  flex flex-col gap-6 pl-5 pt-10 pb-5 bg-[#fdfdfd6c] rounded-lg
+                max-md:w-[150%]
+                ">
 
                     <form className='form flex flex-col gap-6' onSubmit={sendEmail}>
                         <input className='w-[95%] bg-[#f5f5f5] p-2 rounded-md'

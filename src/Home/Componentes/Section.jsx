@@ -22,8 +22,8 @@ function Section() {
                     <ExperienciaDois/>
                 </div>
                 
-                <div className="W-full text-center mt-52 ">
-                    <h3 className="text-3xl text-[#0EE6B7]">Meus Projetos</h3>
+                <div className="W-full text-center mt-52 max-md:flex max-md:justify-center max-md:w-[154%] max-md:m-auto max-md:mt-24 ">
+                    <h3 className="text-3xl text-[#0EE6B7] max-md:text-2xl">Meus Projetos</h3>
                 </div>
 
                 <Project/>
