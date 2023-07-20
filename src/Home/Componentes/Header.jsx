@@ -19,7 +19,7 @@ function Header() {
             ">
                 <a>Experiencias</a>
                 <a>Projetos</a>
-                <a href='../../assets/Curriculo_Willian.pdf' download>Meu Currículo</a>
+                <a href='./Curriculo_Willian.pdf' download>Meu Currículo</a>
             </div>
             <div className="flex gap-6 mr-6
             max-md:hidden
