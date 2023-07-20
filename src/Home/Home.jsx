@@ -7,7 +7,7 @@ import Section from "./Componentes/Section"
 function Home() {
     return (
         <>
-            <div className="h-auto pb-24">
+            <div className="h-auto pb-24 max-md:w-[65%]">
                 <Header />
                 <Bghome />
                 <Section />

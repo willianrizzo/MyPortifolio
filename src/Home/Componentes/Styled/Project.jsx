@@ -5,7 +5,9 @@ import Connect from '../../../assets/connect.png'
 function Project(){
     return(
         <div>
-            <div className='w-[95%] flex gap-20 m-auto mt-20'>
+            <div className='w-[95%] flex gap-20 m-auto mt-20 
+            max-md:flex-col
+            '>
                     <div className='flex flex-col gap-5 w-[35%] h-auto bg-[#1c6697] p-5 items-center rounded-md'>
                         <h1 className='text-center text-2xl text-[#0EE6B7]'>Welldnez</h1>
                         <p className='text-white'>Meu primeiro trabalho realizado no Instituto PROA! Um site voltado para alimentação saudável, a Welldnez foi feita para mantermos a saúde em dia! Comer em restaurantes que oferecem uma alimentação saudável e agradável para todos! Veja mais clicando no link!</p>
