@@ -4,6 +4,8 @@ import { AiFillInstagram } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 import {AiOutlineMenu} from 'react-icons/ai'
 
+
+
 function Header() {
     return (
         <div className='p-8 pl-20 flex justify-between text-[#dfdede]
@@ -17,7 +19,7 @@ function Header() {
             ">
                 <a>Experiencias</a>
                 <a>Projetos</a>
-                <a href='Curriculo_Willian.pdf'>Meu Currículo</a>
+                <a href='../../assets/Curriculo_Willian.pdf' download>Meu Currículo</a>
             </div>
             <div className="flex gap-6 mr-6
             max-md:hidden
