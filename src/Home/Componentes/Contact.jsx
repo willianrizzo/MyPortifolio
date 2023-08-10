@@ -42,7 +42,9 @@ function Contact() {
                     <h2 className="text-white text-4xl
                     max-md:text-2xl max-md:text-center
                     ">Entre em contato comigo!</h2>
-                    <a className='text-[#0EE6B7] text-[20px] bg-[#0b4164] w-[35%] text-center rounded-xl p-2' href="https://linktr.ee/willianrizzo">Meu Linktree</a>
+                    <a className='text-[#0EE6B7] text-[20px] bg-[#0b4164] w-[35%] text-center rounded-xl p-2
+                    max-md:w-[70%] max-md:m-auto
+                    ' href="https://linktr.ee/willianrizzo">Meu Linktree</a>
                 </div>
                 <div className="w-[45%]  flex flex-col gap-6 pl-5 pt-10 pb-5 bg-[#fdfdfd6c] rounded-lg
                 max-md:w-[150%]
