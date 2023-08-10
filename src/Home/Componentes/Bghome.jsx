@@ -14,7 +14,7 @@ function Bghome(){
                 max-md:text-[30px]"
                 >Meu nome é Willian,</h2>
                 <h4 className="w-[105%] font-semibold font-outline-2 text-[#fff0] text-[58px]
-                max-md:text-[30px] max-md:w-[100%]
+                max-md:text-[30px] max-md:w-[100%] max-md:font-outline-3
                 ">Sou desenvolvedor <br /> front-end.</h4>
             </div>
             <div>
